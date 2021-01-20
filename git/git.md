@@ -84,6 +84,7 @@
 * 添加本地仓库到远程仓库 （首先在github上建一个仓库）
 
   ```shell
+  git remote rm origin					#删除
   git remote add origin git@github.com:jermydu/STLDataStructure.git  #添加
   git push -u origin master								#把内容推送到远程仓库，第一次推送
   git push -f origin master								#推送最新修改-f 强制覆盖
